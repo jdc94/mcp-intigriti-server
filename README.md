@@ -46,7 +46,9 @@ pwd
 
 Edit your Claude Desktop configuration file:
 
-**Location:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+**Config File Location:**
+- **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
 
 **Configuration:**
 ```json
@@ -114,7 +116,7 @@ You can also verify the connection in Claude Desktop's developer tools:
 ### Program Research
 ```
 "Get complete details for program ID 'abc-123-def' including scope"
-"Show me the testing domains for abc-123-def's bug bounty program"
+"Show me the testing domains for Program1's bug bounty program"
 "What are the rules of engagement for this e-commerce platform?"
 ```
 
