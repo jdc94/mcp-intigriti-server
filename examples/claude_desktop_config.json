@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "intigriti": {
+      "command": "python3",
+      "args": ["-m", "mcp_intigriti"],
+      "env": {
+        "INTIGRITI_API_TOKEN": "your_token_here"
+      }
+    }
+  }
+}
